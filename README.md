@@ -1,17 +1,26 @@
-# Electronic Data Capture for Large Scale Typhoid Surveillance, Household Contact Tracing, and Health Utilization Survey: Strategic Typhoid Alliance across Africa and Asia
+# Title: 
+Electronic Data Capture for Large Scale Typhoid Surveillance, Household Contact Tracing, and Health Utilisation Survey: Strategic Typhoid Alliance across Africa and Asia.
 
-Deus Thindwa1*, Yama G Farooq2*, Mila Shakya3, Nirod Saha4, Susan Tonks2, Yaw Anokwa5, Carl Hartung5, Andrew Pollard2, Robert S. Heyderman1,6 on behalf of STRATAA Study Consortium
+Authors: Deus Thindwa1,8, Yama G Farooq3, Mila Shakya4, Nirod Saha5, Susan Tonks3, Yaw Anokwa6, Melita A Gordon1,2, Carl Hartung6, James E Meiring3, Andrew J Pollard3, Robert S Heyderman1,7, on behalf of The Strategic Typhoid alliance across Africa and Asia consortium.
 
-1Malawi Liverpool Wellcome Trust Clinical Research Programme (MLW), Malawi; 2Oxford Vaccine Group, Centre for Clinical Vaccinology and Tropical Medicine, Department of Paediatrics, University of Oxford and the National Institute for Health, United Kingdom; 3Oxford University Clinical Research Unit-Patan Academy of Health Sciences, Nepal; 4International Centre for Diarrhoeal Diseases Research, Dhaka, Bangladesh; 5Nafundi, Seattle, WA; 6Division of infection and immunity, University College London, United Kingdom
+# Affiliations
+1 Malawi Liverpool Wellcome Trust Clinical Research Programme, Blantyre, Malawi.
+2 University of Liverpool, Liverpool, United Kingdom.
+3 Centre for Clinical Vaccinology and Tropical Medicine, Department of Paediatrics, University of Oxford and the National Institute for Health, Oxford, United Kingdom.
+4 Oxford University Clinical Research Unit-Patan Academy of Health Sciences, Nepal.
+5 International Centre for Diarrhoeal Diseases Research, Dhaka, Bangladesh.
+6 Nafundi, Seattle, Washington, United States of America.
+7 Division of infection and immunity, University College London, London, United Kingdom.
+8 MRC Centre for Outbreak Analysis and Modelling, Department of Infectious Disease Epidemiology, Imperial College London, London, United Kingdom.
 
-# Background:
-Paper based systems for data collection and management are labour intensive and can result in slow, poor quality data collection, and increased data cleaning time. In contrast, electronic data capture systems have potential to automate validation to pre-emptively correct data errors in real time. In STRATAA, we have used Open Data Kit (ODK) and Structured Query Language (SQL) routines to generate timely, high volume and quality data.
+# Introduction
+Electronic data capture systems (EDCs) have the potential to achieve efficiency and quality in collection of multisite data. We quantify volume, time, accuracy and costs of an EDC using large-scale census data from the STRATAA consortium, a comprehensive programme assessing population dynamics and epidemiology of typhoid fever in Malawi, Nepal and Bangladesh to inform vaccine and public health interventions. 
 
-# Methods:
-STRATAA is a comprehensive programme assessing the population dynamics and epidemiology of typhoid fever in Malawi, Bangladesh and Nepal to inform design of vaccine and public health interventions. Census and survey data collection forms were developed through a structured iterative process and then implemented using ODK, with customizations by Nafundi, on Android-based tablets. Data are uploaded onto MySQL databases, where SQL routines are run nightly to enforce data cleaning on critical variables beyond ODK’s validation routines. Daily anonymized data are backed up from 3 sites centrally. Database reports and descriptive analyses are generated weekly. To assess efficiency and quality of data capture, volume, accuracy and time of census data collection were quantified.
+# Methodology/Principal Findings
+A census form was developed through a structured iterative process and implemented using Open Data Kit Collect running on Android-based tablets. Data were uploaded to Open Data Kit Aggregate, then auto-synced to MySQL-defined database nightly. Data were backed-up daily from 3 sites centrally, and auto-reported weekly. Pre-census materials’ costs were estimated. Demographics of 308,348 individuals from 80,851 households were recorded within average of 14.7 weeks range (13-16) using 65 fieldworkers. Overall, 21.7 errors (95% confidence interval: 21.4, 22.0) per 10,000 data points were found: 13.0 (95% confidence interval: 12.6, 13.5) and 24.5 (95% confidence interval: 24.1, 24.9) errors on numeric and text fields respectively. These values meet standard quality threshold of 50 errors per 10,000 data points. The EDC’s minimum total average cost was US$13,791.82/site. 
 
-# Results:
-We recorded demographics of 311,204 individuals from 74,475 households in three countries within average of 14.7 weeks range (13-16) using 20, 25, and 37 enumerators from Malawi, Bangladesh and Nepal respectively. Overall, 28.4 errors per 10,000 data points were found; 3.4, 7.6, 17.4 errors per 10,000 data points for Malawi, Bangladesh, Nepal respectively. These values meet acceptable quality threshold of 50 errors per 10,000 data points established by the Society for Clinical Data Management.
+# Conclusion
+In conclusion, the EDC is robust and user-friendly, allowing for timely, high volume accurate data collection.
 
-# Conclusions:
-This robust, easy to use system allowed for high volume data to be collected over short time periods. Errors were low and varied moderately by country. Access to data is in real time, facilitating quality checking and decision making.
+# Keywords
+Africa; Asia; Data Quality; Electronic Data Collection; Open Data Kit; Typhoid Fever.
